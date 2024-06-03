@@ -1,0 +1,4 @@
+// ignore everthing inside includes/in_development
+*.log
+/includes/in_development/
+/includes/in_development/*git 

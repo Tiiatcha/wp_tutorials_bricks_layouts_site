@@ -1,0 +1,105 @@
+{
+  "content": [
+    {
+      "id": "gockwr",
+      "name": "section",
+      "parent": 0,
+      "children": ["kdheqw"],
+      "settings": {
+        "_padding": { "top": "0", "right": "0", "bottom": "0", "left": "0" }
+      }
+    },
+    {
+      "id": "kdheqw",
+      "name": "container",
+      "parent": "gockwr",
+      "children": ["brlnrf", "xcnnqj"],
+      "settings": { "_direction": "row" }
+    },
+    {
+      "id": "brlnrf",
+      "name": "block",
+      "parent": "kdheqw",
+      "children": ["ojslgi"],
+      "settings": {
+        "_direction": "column",
+        "_alignSelf": "stretch",
+        "_justifyContent": "center",
+        "_alignItems": "center",
+        "_padding": {
+          "top": "var(--space-m)",
+          "right": "var(--space-m)",
+          "bottom": "var(--space-m)",
+          "left": "var(--space-m)"
+        }
+      },
+      "label": "Column"
+    },
+    {
+      "id": "ojslgi",
+      "name": "block",
+      "parent": "brlnrf",
+      "children": ["zgyzzq", "hcyqau"],
+      "settings": { "_rowGap": "var(--space-m)" }
+    },
+    {
+      "id": "zgyzzq",
+      "name": "block",
+      "parent": "ojslgi",
+      "children": ["elsbka", "kmuykg"],
+      "settings": { "_rowGap": "var(--space-3xs)" }
+    },
+    {
+      "id": "elsbka",
+      "name": "heading",
+      "parent": "zgyzzq",
+      "children": [],
+      "settings": { "text": "I am a heading" }
+    },
+    {
+      "id": "kmuykg",
+      "name": "text",
+      "parent": "zgyzzq",
+      "children": [],
+      "settings": {
+        "text": "<p>Here goes your text ... Select any part of your text to access the formatting toolbar.</p>"
+      }
+    },
+    {
+      "id": "hcyqau",
+      "name": "button",
+      "parent": "ojslgi",
+      "children": [],
+      "settings": { "text": "I am a button", "style": "primary" }
+    },
+    {
+      "id": "xcnnqj",
+      "name": "block",
+      "parent": "kdheqw",
+      "children": ["znjeqs"],
+      "settings": [],
+      "label": "Column"
+    },
+    {
+      "id": "znjeqs",
+      "name": "image",
+      "parent": "xcnnqj",
+      "children": [],
+      "settings": {
+        "image": {
+          "id": 51,
+          "filename": "placeholder-image.png",
+          "size": "large",
+          "full": "https://demo.ncodein.com/wp-content/uploads/2024/05/placeholder-image.png",
+          "url": "https://demo.ncodein.com/wp-content/uploads/2024/05/placeholder-image-1024x683.png"
+        }
+      },
+      "themeStyles": []
+    }
+  ],
+  "source": "bricksCopiedElements",
+  "sourceUrl": "https://demo.ncodein.com",
+  "version": "1.9.8",
+  "globalClasses": [],
+  "globalElements": []
+}
