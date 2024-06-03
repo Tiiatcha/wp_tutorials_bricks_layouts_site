@@ -8,6 +8,8 @@ In the video all the code was placed in the functions.php file.
 
 I have now seperated this out into several other files which are included with the functions.php file using the "require_once" command.
 
+The file structure in this repository represents the bricks-child theme folder and is where all this content belongs.
+
 Below is an example of what that might look like:
 
 ```php
